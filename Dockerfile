@@ -14,4 +14,4 @@ RUN cd shairport && ./configure && make && make install
 
 COPY shairport.conf /etc/default/shairport
 
-CMD ["shairport"]
+CMD ["shairport", "-a", "Office"]
